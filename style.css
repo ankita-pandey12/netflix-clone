@@ -222,9 +222,28 @@ nav button{
 .contact{
         border-top: 9px solid rgb(68, 67, 67);
         background-color: black;
-        height: 350px;
+        height: 180px;
         display: flex;
         flex-direction: column;
         align-items: center;
         color: white;
+        padding: 100px;
+        padding-left: 300px;
+        padding-right: 300px;
+}
+
+.links{
+    width: 60vw;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:40px;
+    gap: 25px;
+}
+
+.links a{
+    text-decoration: underline;
+    color: white;
+    font-size: 14px;
+
 }
