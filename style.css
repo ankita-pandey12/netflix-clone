@@ -293,6 +293,7 @@ nav button{
     }
 
     .adv1, .adv2, .adv3, .adv4 {
+        width: 100%;
         flex-direction: column;
         align-items: center;
         height: auto;
@@ -315,6 +316,7 @@ nav button{
     }
 
     .faq {
+        width: 100%;
         padding: 20px;
     }
 
@@ -334,6 +336,7 @@ nav button{
     }
 
     .contact {
+        width: 100%;
         padding: 20px;
         text-align: center;
     }
