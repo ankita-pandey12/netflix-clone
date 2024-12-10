@@ -245,5 +245,129 @@ nav button{
     text-decoration: underline;
     color: white;
     font-size: 14px;
+}
 
+/* General mobile styles */
+@media (max-width: 768px) {
+    .login {
+        height: auto;
+        background-size: cover;
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav button {
+        margin: 5px 0;
+    }
+
+    .line {
+        margin: 20px 0;
+        padding: 0 10px;
+    }
+
+    .large {
+        font-size: 32px;
+    }
+
+    .middle {
+        font-size: 18px;
+    }
+
+    .small {
+        font-size: 16px;
+    }
+
+    .email {
+        width: 100%;
+    }
+
+    .start {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .adv1, .adv2, .adv3, .adv4 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .enjoytv, .line2 {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .tv-container, .adv2 img, .adv4 img {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .tv-video {
+        width: 100%;
+    }
+
+    .faq {
+        padding: 20px;
+    }
+
+    .faq h1 {
+        font-size: 36px;
+    }
+
+    .question {
+        gap: 15px;
+    }
+
+    .q1 {
+        width: 90%;
+        font-size: 20px;
+        height: auto;
+        padding: 15px;
+    }
+
+    .contact {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .links {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        width: 100%;
+    }
+
+    .links a {
+        font-size: 12px;
+    }
+}
+
+/* Smaller phones */
+@media (max-width: 480px) {
+    .large {
+        font-size: 24px;
+    }
+
+    .middle {
+        font-size: 16px;
+    }
+
+    .small {
+        font-size: 14px;
+    }
+
+    .q1 {
+        font-size: 18px;
+    }
+
+    .links {
+        grid-template-columns: 1fr;
+    }
 }
